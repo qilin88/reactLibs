@@ -1,0 +1,22 @@
+{
+  "name": "@qilin88/libs-core",
+  "version": "0.0.0",
+  "description": "我是core",
+  "author": "qilin88 <1019921999@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/core.js",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4873"
+  },
+  "scripts": {
+    "dev": "microbundle"
+  }
+}

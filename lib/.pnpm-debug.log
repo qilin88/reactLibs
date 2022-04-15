@@ -1,0 +1,97 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/chen/learn/project2021/reactLib/lib"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "root",
+      "private": true,
+      "devDependencies": {
+        "lerna": "^4.0.0"
+      }
+    },
+    "prefix": "/Users/chen/learn/project2021/reactLib/lib"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/chen/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/chen/learn/project2021/reactLib/lib/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/chen/learn/project2021/reactLib/lib",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNREFUSED",
+      "code": "ECONNREFUSED",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://127.0.0.1:4873/microbundle"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNREFUSED",
+      "code": "ECONNREFUSED",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "http://127.0.0.1:4873/lerna"
+  },
+  "6 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNREFUSED",
+      "code": "ECONNREFUSED",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "http://127.0.0.1:4873/microbundle"
+  },
+  "7 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNREFUSED",
+      "code": "ECONNREFUSED",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "http://127.0.0.1:4873/lerna"
+  },
+  "8 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873\n    at RetryOperation._fn (/Users/chen/.nvm/versions/node/v12.22.7/lib/node_modules/pnpm/dist/pnpm.cjs:85655:19)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+    }
+  },
+  "9 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [],
+    "prefix": "/Users/chen/learn/project2021/reactLib/lib",
+    "err": {
+      "name": "pnpm",
+      "message": "GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873\n    at RetryOperation._fn (/Users/chen/.nvm/versions/node/v12.22.7/lib/node_modules/pnpm/dist/pnpm.cjs:85655:19)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+    }
+  }
+}
