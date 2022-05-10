@@ -1,6 +1,6 @@
 {
   "name": "@qilin88/demo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "qilin88 <1019921999@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@qilin88/core": "^0.0.4",
+    "@qilin88/core": "^0.0.5",
     "xstate": "^4.31.0"
   },
   "gitHead": "e51b7c25df370325e3a5120dfb19273d30bc9e9d"
