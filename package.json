@@ -4,6 +4,13 @@
     "packages/*"
   ],
   "private": true,
+  "publishConfig": {
+    "registry": "http://127.0.0.1:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qilin88/reactLibs.git"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
