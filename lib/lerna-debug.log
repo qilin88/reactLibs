@@ -7,7 +7,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/chen/learn/project2021/reactLib/lib
 3 info versioning independent
-4 verbose session cd874f6bab075163
+4 verbose session 298d723fd2731fea
 5 verbose user-agent lerna/4.0.0/node@v12.22.7+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
 7 verbose rootPath /Users/chen/learn/project2021/reactLib/lib
@@ -20,52 +20,68 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@qilin88/demo@0.0.8-1-g0ae8065e" => {"lastTagName":"@qilin88/demo@0.0.8","lastVersion":"0.0.8","refCount":"1","sha":"0ae8065e","isDirty":false}
-18 info Looking for changed packages since @qilin88/demo@0.0.8
+17 silly git-describe.sync "@qilin88/core@0.0.9-1-ga15eb16c" => {"lastTagName":"@qilin88/core@0.0.9","lastVersion":"0.0.9","refCount":"1","sha":"a15eb16c","isDirty":false}
+18 info Looking for changed packages since @qilin88/core@0.0.9
 19 silly checking diff packages/core
 20 silly found diff in packages/core/package.json
 21 verbose filtered diff [ 'packages/core/package.json' ]
 22 silly checking diff packages/demo
-23 silly no diff found in @qilin88/demo
-24 verbose updated @qilin88/core
-25 verbose git-describe undefined => "@qilin88/demo@0.0.8-1-g0ae8065e"
-26 silly git-describe parsed => {"lastTagName":"@qilin88/demo@0.0.8","lastVersion":"0.0.8","refCount":"1","sha":"0ae8065e","isDirty":false}
-27 info execute Skipping releases
-28 silly lifecycle No script for "preversion" in "lib", continuing
-29 silly lifecycle No script for "preversion" in "@qilin88/core", continuing
-30 silly lifecycle No script for "version" in "@qilin88/core", continuing
-31 silly lifecycle No script for "version" in "lib", continuing
-32 silly gitAdd [ 'packages/core/package.json' ]
-33 silly gitCommit Publish
-33 silly gitCommit
-33 silly gitCommit  - @qilin88/core@0.0.9
-34 verbose git [
-34 verbose git   'commit',
-34 verbose git   '-F',
-34 verbose git   '/private/var/folders/5c/nw2z7gm93xv0j7nhsztsdp0h0000gn/T/9c4efa28-ba9c-48ff-8e3a-142746ab5741/lerna-commit.txt'
-34 verbose git ]
-35 silly gitTag @qilin88/core@0.0.9
-36 verbose git [ 'tag', '@qilin88/core@0.0.9', '-m', '@qilin88/core@0.0.9' ]
-37 silly lifecycle No script for "postversion" in "@qilin88/core", continuing
-38 silly lifecycle No script for "postversion" in "lib", continuing
-39 info git Pushing tags...
-40 silly gitPush origin master
-41 info publish Publishing packages to npm...
-42 notice Skipping all user and access validation due to third-party registry
-43 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
-44 silly getCurrentSHA
-45 verbose getCurrentSHA 31f2851441e4cfa76d6f1872fdcf7679aa71ee30
-46 silly lifecycle No script for "prepublish" in "lib", continuing
-47 silly lifecycle No script for "prepare" in "lib", continuing
-48 silly lifecycle No script for "prepublishOnly" in "lib", continuing
-49 silly lifecycle No script for "prepack" in "lib", continuing
-50 verbose pack-directory packages/core/packages/core
-51 silly lifecycle No script for "prepublish" in "@qilin88/core", continuing
-52 silly lifecycle No script for "prepare" in "@qilin88/core", continuing
-53 silly lifecycle No script for "prepublishOnly" in "@qilin88/core", continuing
-54 silly lifecycle No script for "prepack" in "@qilin88/core", continuing
-55 silly lifecycle No script for "postpack" in "@qilin88/core", continuing
-56 verbose packed packages/core/packages/core
-57 silly lifecycle No script for "postpack" in "lib", continuing
-58 verbose publish @qilin88/core
-59 error
+23 silly found diff in packages/demo/package.json
+24 verbose filtered diff [ 'packages/demo/package.json' ]
+25 verbose updated @qilin88/core
+26 verbose updated @qilin88/demo
+27 verbose git-describe undefined => "@qilin88/core@0.0.9-1-ga15eb16c"
+28 silly git-describe parsed => {"lastTagName":"@qilin88/core@0.0.9","lastVersion":"0.0.9","refCount":"1","sha":"a15eb16c","isDirty":false}
+29 info execute Skipping releases
+30 silly lifecycle No script for "preversion" in "lib", continuing
+31 silly lifecycle No script for "preversion" in "@qilin88/core", continuing
+32 silly lifecycle No script for "preversion" in "@qilin88/demo", continuing
+33 silly lifecycle No script for "version" in "@qilin88/core", continuing
+34 silly lifecycle No script for "version" in "@qilin88/demo", continuing
+35 silly lifecycle No script for "version" in "lib", continuing
+36 silly gitAdd [ 'packages/core/package.json', 'packages/demo/package.json' ]
+37 silly gitCommit Publish
+37 silly gitCommit
+37 silly gitCommit  - @qilin88/core@0.0.10
+37 silly gitCommit  - @qilin88/demo@0.0.9
+38 verbose git [
+38 verbose git   'commit',
+38 verbose git   '-F',
+38 verbose git   '/private/var/folders/5c/nw2z7gm93xv0j7nhsztsdp0h0000gn/T/a60dcaf3-95ad-4a5c-8862-5f34091e0720/lerna-commit.txt'
+38 verbose git ]
+39 silly gitTag @qilin88/core@0.0.10
+40 verbose git [ 'tag', '@qilin88/core@0.0.10', '-m', '@qilin88/core@0.0.10' ]
+41 silly gitTag @qilin88/demo@0.0.9
+42 verbose git [ 'tag', '@qilin88/demo@0.0.9', '-m', '@qilin88/demo@0.0.9' ]
+43 silly lifecycle No script for "postversion" in "@qilin88/core", continuing
+44 silly lifecycle No script for "postversion" in "@qilin88/demo", continuing
+45 silly lifecycle No script for "postversion" in "lib", continuing
+46 info git Pushing tags...
+47 silly gitPush origin master
+48 info publish Publishing packages to npm...
+49 notice Skipping all user and access validation due to third-party registry
+50 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+51 silly getCurrentSHA
+52 verbose getCurrentSHA 5902c973cda312f56f2f2ca295e43b1435c90e2f
+53 silly lifecycle No script for "prepublish" in "lib", continuing
+54 silly lifecycle No script for "prepare" in "lib", continuing
+55 silly lifecycle No script for "prepublishOnly" in "lib", continuing
+56 silly lifecycle No script for "prepack" in "lib", continuing
+57 verbose pack-directory packages/core/packages/core
+58 verbose pack-directory packages/demo/packages/demo
+59 silly lifecycle No script for "prepublish" in "@qilin88/core", continuing
+60 silly lifecycle No script for "prepublish" in "@qilin88/demo", continuing
+61 silly lifecycle No script for "prepare" in "@qilin88/core", continuing
+62 silly lifecycle No script for "prepare" in "@qilin88/demo", continuing
+63 silly lifecycle No script for "prepublishOnly" in "@qilin88/core", continuing
+64 silly lifecycle No script for "prepublishOnly" in "@qilin88/demo", continuing
+65 silly lifecycle No script for "prepack" in "@qilin88/core", continuing
+66 silly lifecycle No script for "prepack" in "@qilin88/demo", continuing
+67 silly lifecycle No script for "postpack" in "@qilin88/core", continuing
+68 verbose packed packages/core/packages/core
+69 silly lifecycle No script for "postpack" in "@qilin88/demo", continuing
+70 verbose packed packages/demo/packages/demo
+71 silly lifecycle No script for "postpack" in "lib", continuing
+72 verbose publish @qilin88/core
+73 verbose publish @qilin88/demo
+74 error
