@@ -1,10 +1,10 @@
 {
   "name": "@qilin88/core",
-  "version": "0.0.7",
+  "version": "0.0.5",
   "description": "我是core",
   "author": "qilin88 <1019921999@qq.com>",
   "homepage": "",
-  "license": "MIT",
+  "license": "ISC",
   "main": "src/index.ts",
   "directories": {
     "lib": "src",
@@ -14,10 +14,11 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://127.0.0.1:4873"
+    "registry": "http://127.0.0.1:4873",
+    "directory": "packages/core"
   },
   "scripts": {
     "dev": "microbundle"
   },
-  "gitHead": "8e8be2d6ff2c1662aa1c4435d2ffae35e55845f0"
+  "gitHead": "bb11e0ef0df3d0796210e988470767cc4344f337"
 }
