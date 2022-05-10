@@ -1,5 +1,5 @@
 {
-  "name": "@qilin88/lib",
+  "name": "lib",
   "workspaces": [
     "packages/*"
   ],
