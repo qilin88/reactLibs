@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "private": true,
+  "private": false,
   "publishConfig": {
     "registry": "http://127.0.0.1:4873"
   },
