@@ -1,6 +1,6 @@
 {
   "name": "@qilin88/core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "我是core",
   "author": "qilin88 <1019921999@qq.com>",
   "homepage": "",
@@ -18,5 +18,6 @@
   },
   "scripts": {
     "dev": "microbundle"
-  }
+  },
+  "gitHead": "ef650dfaa974864f32973deb04eb7563759672dd"
 }
