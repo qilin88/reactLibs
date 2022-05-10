@@ -1,8 +1,7 @@
-44 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
-45 error Error: Command failed with exit code 128: git tag @qilin88/core@0.0.10 -m @qilin88/core@0.0.10
-45 error fatal: tag '@qilin88/core@0.0.10' already exists
-45 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
-45 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
-45 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
-45 error     at async Promise.all (index 0)
-45 error     at async Promise.all (index 0)
+38 error Error: Command failed with exit code 128: git tag @qilin88/core@0.0.11 -m @qilin88/core@0.0.11
+38 error fatal: tag '@qilin88/core@0.0.11' already exists
+38 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
+38 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
+38 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+38 error     at async Promise.all (index 0)
+38 error     at async Promise.all (index 0)
