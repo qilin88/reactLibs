@@ -5,7 +5,10 @@
   },
   "1 debug pnpm:package-manifest": {
     "initial": {
-      "name": "root",
+      "name": "@qilin88/lib",
+      "workspaces": [
+        "packages/*"
+      ],
       "private": true,
       "devDependencies": {
         "lerna": "^4.0.0"
@@ -22,76 +25,75 @@
     "prefix": "/Users/chen/learn/project2021/reactLib/lib",
     "stage": "resolution_started"
   },
-  "4 debug pnpm:request-retry": {
-    "attempt": 1,
-    "error": {
-      "type": "system",
-      "errno": "ECONNREFUSED",
-      "code": "ECONNREFUSED",
-      "erroredSysCall": "connect"
-    },
-    "maxRetries": 2,
-    "method": "GET",
-    "timeout": 10000,
-    "url": "http://127.0.0.1:4873/microbundle"
-  },
-  "5 debug pnpm:request-retry": {
-    "attempt": 1,
-    "error": {
-      "type": "system",
-      "errno": "ECONNREFUSED",
-      "code": "ECONNREFUSED",
-      "erroredSysCall": "connect"
-    },
-    "maxRetries": 2,
-    "method": "GET",
-    "timeout": 10000,
-    "url": "http://127.0.0.1:4873/lerna"
-  },
-  "6 debug pnpm:request-retry": {
-    "attempt": 2,
-    "error": {
-      "type": "system",
-      "errno": "ECONNREFUSED",
-      "code": "ECONNREFUSED",
-      "erroredSysCall": "connect"
-    },
-    "maxRetries": 2,
-    "method": "GET",
-    "timeout": 60000,
-    "url": "http://127.0.0.1:4873/microbundle"
-  },
-  "7 debug pnpm:request-retry": {
-    "attempt": 2,
-    "error": {
-      "type": "system",
-      "errno": "ECONNREFUSED",
-      "code": "ECONNREFUSED",
-      "erroredSysCall": "connect"
-    },
-    "maxRetries": 2,
-    "method": "GET",
-    "timeout": 60000,
-    "url": "http://127.0.0.1:4873/lerna"
-  },
-  "8 info pnpm": {
-    "err": {
-      "name": "Error",
-      "message": "GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873",
-      "code": "ERR_PNPM_META_FETCH_FAIL",
-      "stack": "Error: GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873\n    at RetryOperation._fn (/Users/chen/.nvm/versions/node/v12.22.7/lib/node_modules/pnpm/dist/pnpm.cjs:85655:19)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "127.0.0.1+4873/minimist/1.2.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "minimist",
+      "rawSpec": "latest"
     }
   },
-  "9 error pnpm": {
-    "code": "ERR_PNPM_META_FETCH_FAIL",
-    "attempts": 1,
-    "pkgsStack": [],
+  "5 debug pnpm:progress": {
+    "packageId": "127.0.0.1+4873/minimist/1.2.6",
+    "requester": "/Users/chen/learn/project2021/reactLib/lib",
+    "status": "resolved"
+  },
+  "6 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "127.0.0.1+4873/minimist/1.2.6",
+    "size": 8363,
+    "status": "started"
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "127.0.0.1+4873/minimist/1.2.6",
+    "requester": "/Users/chen/learn/project2021/reactLib/lib",
+    "status": "fetched"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "127.0.0.1+4873/lerna/4.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "lerna",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "127.0.0.1+4873/lerna/4.0.0",
+    "requester": "/Users/chen/learn/project2021/reactLib/lib",
+    "status": "resolved"
+  },
+  "10 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "GET http://127.0.0.1:4873/@lerna%2Fadd: Unauthorized - 401",
+      "code": "ERR_PNPM_FETCH_401",
+      "stack": "Error: GET http://127.0.0.1:4873/@lerna%2Fadd: Unauthorized - 401\n    at RetryOperation._fn (/Users/chen/.nvm/versions/node/v12.22.7/lib/node_modules/pnpm/dist/pnpm.cjs:85663:19)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+    }
+  },
+  "11 error pnpm": {
+    "code": "ERR_PNPM_FETCH_401",
+    "hint": "An authorization header was used: Bearer elFS[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer elFSc0IRrXmEH5uC1WE0GLDi1PSzGondgOaD7FGDhik=",
+      "url": "http://127.0.0.1:4873/@lerna%2Fadd"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@lerna/add",
+    "pkgsStack": [
+      {
+        "id": "127.0.0.1+4873/lerna/4.0.0",
+        "name": "lerna",
+        "version": "4.0.0"
+      }
+    ],
     "prefix": "/Users/chen/learn/project2021/reactLib/lib",
     "err": {
       "name": "pnpm",
-      "message": "GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873",
-      "code": "ERR_PNPM_META_FETCH_FAIL",
-      "stack": "Error: GET http://127.0.0.1:4873/microbundle: request to http://127.0.0.1:4873/microbundle failed, reason: connect ECONNREFUSED 127.0.0.1:4873\n    at RetryOperation._fn (/Users/chen/.nvm/versions/node/v12.22.7/lib/node_modules/pnpm/dist/pnpm.cjs:85655:19)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      "message": "GET http://127.0.0.1:4873/@lerna%2Fadd: Unauthorized - 401",
+      "code": "ERR_PNPM_FETCH_401",
+      "stack": "Error: GET http://127.0.0.1:4873/@lerna%2Fadd: Unauthorized - 401\n    at RetryOperation._fn (/Users/chen/.nvm/versions/node/v12.22.7/lib/node_modules/pnpm/dist/pnpm.cjs:85663:19)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
     }
   }
 }
