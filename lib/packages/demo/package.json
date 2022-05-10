@@ -1,6 +1,6 @@
 {
   "name": "@qilin88/libs-demo",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "> TODO: description",
   "author": "qilin88 <1019921999@qq.com>",
   "homepage": "",
@@ -23,5 +23,5 @@
     "@qilin88/core": "^0.0.6",
     "xstate": "^4.31.0"
   },
-  "gitHead": "ee3580e6dee9703b7d3ae76a205f43fd405449d2"
+  "gitHead": "a1393b1f78a9fb38949991edb7c89a82d1f68868"
 }
