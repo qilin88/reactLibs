@@ -7,7 +7,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/chen/learn/project2021/reactLib/lib
 3 info versioning independent
-4 verbose session 298d723fd2731fea
+4 verbose session 911c4d6259142f12
 5 verbose user-agent lerna/4.0.0/node@v12.22.7+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
 7 verbose rootPath /Users/chen/learn/project2021/reactLib/lib
@@ -20,8 +20,8 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@qilin88/core@0.0.9-1-ga15eb16c" => {"lastTagName":"@qilin88/core@0.0.9","lastVersion":"0.0.9","refCount":"1","sha":"a15eb16c","isDirty":false}
-18 info Looking for changed packages since @qilin88/core@0.0.9
+17 silly git-describe.sync "@qilin88/core@0.0.10-1-gdc7da140" => {"lastTagName":"@qilin88/core@0.0.10","lastVersion":"0.0.10","refCount":"1","sha":"dc7da140","isDirty":false}
+18 info Looking for changed packages since @qilin88/core@0.0.10
 19 silly checking diff packages/core
 20 silly found diff in packages/core/package.json
 21 verbose filtered diff [ 'packages/core/package.json' ]
@@ -30,8 +30,8 @@
 24 verbose filtered diff [ 'packages/demo/package.json' ]
 25 verbose updated @qilin88/core
 26 verbose updated @qilin88/demo
-27 verbose git-describe undefined => "@qilin88/core@0.0.9-1-ga15eb16c"
-28 silly git-describe parsed => {"lastTagName":"@qilin88/core@0.0.9","lastVersion":"0.0.9","refCount":"1","sha":"a15eb16c","isDirty":false}
+27 verbose git-describe undefined => "@qilin88/core@0.0.10-1-gdc7da140"
+28 silly git-describe parsed => {"lastTagName":"@qilin88/core@0.0.10","lastVersion":"0.0.10","refCount":"1","sha":"dc7da140","isDirty":false}
 29 info execute Skipping releases
 30 silly lifecycle No script for "preversion" in "lib", continuing
 31 silly lifecycle No script for "preversion" in "@qilin88/core", continuing
@@ -42,17 +42,17 @@
 36 silly gitAdd [ 'packages/core/package.json', 'packages/demo/package.json' ]
 37 silly gitCommit Publish
 37 silly gitCommit
-37 silly gitCommit  - @qilin88/core@0.0.10
-37 silly gitCommit  - @qilin88/demo@0.0.9
+37 silly gitCommit  - @qilin88/core@0.0.11
+37 silly gitCommit  - @qilin88/demo@0.0.10
 38 verbose git [
 38 verbose git   'commit',
 38 verbose git   '-F',
-38 verbose git   '/private/var/folders/5c/nw2z7gm93xv0j7nhsztsdp0h0000gn/T/a60dcaf3-95ad-4a5c-8862-5f34091e0720/lerna-commit.txt'
+38 verbose git   '/private/var/folders/5c/nw2z7gm93xv0j7nhsztsdp0h0000gn/T/ec4ea5ed-faaa-47fd-9c49-3d333af36284/lerna-commit.txt'
 38 verbose git ]
-39 silly gitTag @qilin88/core@0.0.10
-40 verbose git [ 'tag', '@qilin88/core@0.0.10', '-m', '@qilin88/core@0.0.10' ]
-41 silly gitTag @qilin88/demo@0.0.9
-42 verbose git [ 'tag', '@qilin88/demo@0.0.9', '-m', '@qilin88/demo@0.0.9' ]
+39 silly gitTag @qilin88/core@0.0.11
+40 verbose git [ 'tag', '@qilin88/core@0.0.11', '-m', '@qilin88/core@0.0.11' ]
+41 silly gitTag @qilin88/demo@0.0.10
+42 verbose git [ 'tag', '@qilin88/demo@0.0.10', '-m', '@qilin88/demo@0.0.10' ]
 43 silly lifecycle No script for "postversion" in "@qilin88/core", continuing
 44 silly lifecycle No script for "postversion" in "@qilin88/demo", continuing
 45 silly lifecycle No script for "postversion" in "lib", continuing
@@ -62,7 +62,7 @@
 49 notice Skipping all user and access validation due to third-party registry
 50 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 51 silly getCurrentSHA
-52 verbose getCurrentSHA 5902c973cda312f56f2f2ca295e43b1435c90e2f
+52 verbose getCurrentSHA 2a39869a92800133b25633712c1b774b273b3084
 53 silly lifecycle No script for "prepublish" in "lib", continuing
 54 silly lifecycle No script for "prepare" in "lib", continuing
 55 silly lifecycle No script for "prepublishOnly" in "lib", continuing
