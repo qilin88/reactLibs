@@ -1,0 +1,83 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/usr/local/bin/lerna',
+0 silly argv   bump: 'from-package'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/chen/learn/project2021/reactLib/lib
+3 info versioning independent
+4 verbose session 39dc1c6fa6c1dc13
+5 verbose user-agent lerna/4.0.0/node@v12.22.7+x64 (darwin)
+6 silly EWORKINGTREE Command failed with exit code 128: git describe --always --long --dirty --first-parent
+6 silly EWORKINGTREE fatal: bad revision 'HEAD'
+7 notice FYI Unable to verify working tree, proceed at your own risk
+8 silly getUnpublishedPackages
+9 warn Unable to determine published version, assuming "@qilin88/libs-demo" unpublished.
+10 warn Unable to determine published version, assuming "@qilin88/libs-core" unpublished.
+11 info publish Publishing packages to npm...
+12 notice Skipping all user and access validation due to third-party registry
+13 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+14 warn ENOLICENSE Packages @qilin88/libs-core and @qilin88/libs-demo are missing a license.
+14 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+14 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+15 silly getCurrentSHA
+16 silly EGITHEAD Command failed with exit code 128: git rev-parse HEAD
+16 silly EGITHEAD fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+16 silly EGITHEAD Use '--' to separate paths from revisions, like this:
+16 silly EGITHEAD 'git <command> [<revision>...] -- [<file>...]'
+16 silly EGITHEAD HEAD
+17 notice FYI Unable to set temporary gitHead property, it will be missing from registry metadata
+18 silly lifecycle No script for "prepublish" in "lib", continuing
+19 silly lifecycle No script for "prepare" in "lib", continuing
+20 silly lifecycle No script for "prepublishOnly" in "lib", continuing
+21 silly lifecycle No script for "prepack" in "lib", continuing
+22 verbose pack-directory packages/core
+23 verbose pack-directory packages/demo
+24 silly lifecycle No script for "prepublish" in "@qilin88/libs-core", continuing
+25 silly lifecycle No script for "prepublish" in "@qilin88/libs-demo", continuing
+26 silly lifecycle No script for "prepare" in "@qilin88/libs-core", continuing
+27 silly lifecycle No script for "prepare" in "@qilin88/libs-demo", continuing
+28 silly lifecycle No script for "prepublishOnly" in "@qilin88/libs-core", continuing
+29 silly lifecycle No script for "prepublishOnly" in "@qilin88/libs-demo", continuing
+30 silly lifecycle No script for "prepack" in "@qilin88/libs-core", continuing
+31 silly lifecycle No script for "prepack" in "@qilin88/libs-demo", continuing
+32 silly lifecycle No script for "postpack" in "@qilin88/libs-core", continuing
+33 verbose packed packages/core
+34 silly lifecycle No script for "postpack" in "@qilin88/libs-demo", continuing
+35 verbose packed packages/demo
+36 silly lifecycle No script for "postpack" in "lib", continuing
+37 verbose publish @qilin88/libs-core
+38 verbose publish @qilin88/libs-demo
+39 silly FetchError: request to http://127.0.0.1:4873/@qilin88%2flibs-core failed, reason: connect ECONNREFUSED 127.0.0.1:4873
+39 silly     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:110:14)
+39 silly     at ClientRequest.emit (events.js:314:20)
+39 silly     at Socket.socketErrorListener (_http_client.js:427:9)
+39 silly     at Socket.emit (events.js:326:22)
+39 silly     at emitErrorNT (internal/streams/destroy.js:92:8)
+39 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+39 silly     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+39 silly  FetchError: request to http://127.0.0.1:4873/@qilin88%2flibs-core failed, reason: connect ECONNREFUSED 127.0.0.1:4873
+39 silly     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:110:14)
+39 silly     at ClientRequest.emit (events.js:314:20)
+39 silly     at Socket.socketErrorListener (_http_client.js:427:9)
+39 silly     at Socket.emit (events.js:326:22)
+39 silly     at emitErrorNT (internal/streams/destroy.js:92:8)
+39 silly     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+39 silly     at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+39 silly   code: 'ECONNREFUSED',
+39 silly   errno: 'ECONNREFUSED',
+39 silly   syscall: 'connect',
+39 silly   address: '127.0.0.1',
+39 silly   port: 4873,
+39 silly   type: 'system'
+39 silly }
+40 error ECONNREFUSED request to http://127.0.0.1:4873/@qilin88%2flibs-core failed, reason: connect ECONNREFUSED 127.0.0.1:4873
+41 error FetchError: request to http://127.0.0.1:4873/@qilin88%2flibs-core failed, reason: connect ECONNREFUSED 127.0.0.1:4873
+41 error     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/lerna/node_modules/minipass-fetch/lib/index.js:110:14)
+41 error     at ClientRequest.emit (events.js:314:20)
+41 error     at Socket.socketErrorListener (_http_client.js:427:9)
+41 error     at Socket.emit (events.js:326:22)
+41 error     at emitErrorNT (internal/streams/destroy.js:92:8)
+41 error     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)

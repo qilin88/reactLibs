@@ -1,0 +1,14 @@
+{
+  "npmClient": "pnpm",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "useWorkSpace": true,
+  "commond": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "[skip ci] chore: release"
+    }
+  }
+}
