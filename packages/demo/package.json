@@ -22,5 +22,6 @@
   "dependencies": {
     "@qilin88/core": "^0.0.1",
     "xstate": "^4.31.0"
-  }
+  },
+  "gitHead": "ef650dfaa974864f32973deb04eb7563759672dd"
 }
