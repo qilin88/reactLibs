@@ -1,0 +1,7 @@
+44 error Error: Command failed with exit code 128: git tag @qilin88/demo@0.0.6 -m @qilin88/demo@0.0.6
+44 error fatal: tag '@qilin88/demo@0.0.6' already exists
+44 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
+44 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
+44 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+44 error     at async Promise.all (index 1)
+44 error     at async Promise.all (index 0)
